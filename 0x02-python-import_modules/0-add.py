@@ -1,10 +1,5 @@
 #!/usr/bin/python3
 
-# simple add script
-# import module add_0
-# Author:Herbalcode
-
-
 if __name__ == "__main__":
     """print the sum of 1 and 2."""
     from add_0 import add
