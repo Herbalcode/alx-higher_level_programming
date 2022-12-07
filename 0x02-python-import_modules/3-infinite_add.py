@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# 3-infinite_add.py
-# Auth: Herbalcode
+"""3-infinite_add.py"""
+"""Auth: Herbalcode"""
 
 if __name__ == "__main__":
     """Print the addition of all arguments."""
