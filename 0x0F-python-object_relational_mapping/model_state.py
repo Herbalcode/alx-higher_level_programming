@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Start model class to table in database
+Define model class to table in database
 """
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
@@ -12,5 +12,3 @@ class State(Base):
     id = Column(Integer, Primary_key=True)
     name = Column(String(128), nullable=False)
 
-
-if __name__ == "__main__":
