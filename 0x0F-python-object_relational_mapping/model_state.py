@@ -17,4 +17,9 @@ class State(Base):
     __tablename__ = "states"
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
+    # access the mapped Table
+    State.__table__
+
+    # access the Mapper
+   State.__mapper__
 
