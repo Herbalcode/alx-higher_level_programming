@@ -15,11 +15,5 @@ class State(Base):
     name (sqlalchemy.String): The state's name.
     """
     __tablename__ = "states"
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True, uniqe=True)
     name = Column(String(128), nullable=False)
-    # access the mapped Table
-    State.__table__
-
-    # access the Mapper
-   State.__mapper__
-
